@@ -37,3 +37,8 @@ print(full.count("a"))
 print(full.find("a"))       
 # .replace para reemplazar una letra o palabra por otra
 print(full.replace("a", "@"))
+
+
+
+
+#tutuca cambio ejemplo de uso de git
