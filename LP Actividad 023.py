@@ -11,7 +11,7 @@ while CPart <4 or CPart > 20:
     CPart = int(input("Ingrese la cantidad de Partidos que jugaron el año pasado: "))
 for i in range (CPart):
     Resultado = input("Ingrese el resultado del partido (GANO, PERDIO o EMPATO): ").upper()
-    while Resultado != "GANO" or Resultado != "PERDIO" or Resultado != "EMPATO":
+    while Resultado != "GANO" and Resultado != "PERDIO" and Resultado != "EMPATO":
         Resultado = input("Ingrese el resultado del partido (GANO, PERDIO o EMPATO): ").upper()
     if Resultado == "GANO":
         GPart = GPart + 1
