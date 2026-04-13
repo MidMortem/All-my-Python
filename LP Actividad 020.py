@@ -17,11 +17,14 @@
 # print(f"El numero maximo es: {maximo}")
 # print(f"El numero minimo es: {minimo}")
 
-maximo = 1.4
-minimo = 2.25
+maximo = -9999
+minimo = 9999
 
 for i in range (5):
     num = float(input("Ingrese su altura: "))
+    while num <1.4 or num >2.25:
+        print("Altura no válida. Ingrese una altura entre 1.4 y 2.25.")
+        num = float(input("Ingrese su altura: "))
     if num>maximo:
         maximo = num
     if num<minimo:
